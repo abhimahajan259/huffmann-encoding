@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+ 
+                   Coder               msb                           lsb 
+
+--------------------------------------------------------------------------------
+ 
+C register          Q                  ffffffff bbbbbbbb ssssxxxx xxxxxxxx  
+                    Q in Qx            0000cbbb bbbbbsss xxxxxxxx xxxxx000  
+                    QM                 0000cbbb bbbbbsss xxxxxxxx xxxxxxxx  
+                    QM in Qx           0000cbbb bbbbbsss xxxxxxxx xxxxxxxx  
+A register          Q                                    0001aaaa aaaaaaaa  
+                    Q in Qx                              1aaaaaaa aaaaa000  
+                    QM                 00000000 0000000a aaaaaaaa aaaaaaaa  
+                    QM in Qx                             aaaaaaaa aaaaaaaa  
+Amin                Q                                    00010000 00000000  
+                    Q in Qx                              10000000 00000000  
+                    QM                                   10000000 00000000  
+                    QM in Qx                             10000000 000000zz
+
+
+
+
+   
